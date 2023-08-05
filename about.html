@@ -13,7 +13,8 @@
     <section class="sub-header">
       <nav>
         <a href="index.html"><img src="./img/logo/logo.png"></a>
-        <div class="nav-link">
+        <div class="nav-link" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a class="active" href="about.html">ABOUT</a></li>
@@ -22,6 +23,7 @@
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <h1>About Us</h1>
     </section>
@@ -62,5 +64,7 @@
       src="https://kit.fontawesome.com/8e8866d857.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
