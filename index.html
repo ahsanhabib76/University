@@ -1,169 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8e8866d857.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans&family=Mulish&family=Poppins:wght@100;300;400;600;700&family=Roboto&display=swap');
+    </style>
+    <script
+      src="https://kit.fontawesome.com/8e8866d857.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="img/logo/logo.png" alt="Logo"></a>
-            <div class="nav-link" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="textBox">
-            <h1>World's Biggest University</h1>
-            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> Javascript and youre good to go.</p>
-            <a href="" class="button">Visit Us To Know More</a>
+      <nav>
+        <a href="index.html"><img src="img/logo/logo.png" alt="Logo" /></a>
+        <div class="nav-link" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="textBox">
+        <h1>World's Biggest University</h1>
+        <p>
+          Making website is now one of the easiest thing in the world. You just
+          need to learn HTML, CSS,<br />
+          Javascript and youre good to go.
+        </p>
+        <a href="" class="button">Visit Us To Know More</a>
+      </div>
     </section>
 
     <!-- Courses area -->
 
     <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias?</p>
-        <div class="row">
-            <div class="coursesCol">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odio architecto, provident modi necessitatibus expedita ad perspiciatis, iste amet eos ex ratione? Maxime voluptatibus consequuntur pariatur recusandae unde eaque quidem.</p>
-            </div>
-            <div class="coursesCol">
-                <h3>Degree</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odio architecto, provident modi necessitatibus expedita ad perspiciatis, iste amet eos ex ratione? Maxime voluptatibus consequuntur pariatur recusandae unde eaque quidem.</p>
-            </div>
-            <div class="coursesCol">
-                <h3>Post Gradutes</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odio architecto, provident modi necessitatibus expedita ad perspiciatis, iste amet eos ex ratione? Maxime voluptatibus consequuntur pariatur recusandae unde eaque quidem.</p>
-            </div>
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        alias?
+      </p>
+      <div class="row">
+        <div class="coursesCol">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+            odio architecto, provident modi necessitatibus expedita ad
+            perspiciatis, iste amet eos ex ratione? Maxime voluptatibus
+            consequuntur pariatur recusandae unde eaque quidem.
+          </p>
         </div>
+        <div class="coursesCol">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+            odio architecto, provident modi necessitatibus expedita ad
+            perspiciatis, iste amet eos ex ratione? Maxime voluptatibus
+            consequuntur pariatur recusandae unde eaque quidem.
+          </p>
+        </div>
+        <div class="coursesCol">
+          <h3>Post Gradutes</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+            odio architecto, provident modi necessitatibus expedita ad
+            perspiciatis, iste amet eos ex ratione? Maxime voluptatibus
+            consequuntur pariatur recusandae unde eaque quidem.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Campuses -->
     <section class="campuses">
-        <h1>Our Global Campuses</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias?</p>
+      <h1>Our Global Campuses</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        alias?
+      </p>
 
-        <div class="wrote">
-            <div class="campusesCol">
-                <img src="img/campus/london.png" alt="london">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>
-
-            <div class="campusesCol">
-                <img src="img/campus/newyork.png" alt="New York">
-                <div class="layer">
-                    <h3>NEW YORK</h3>
-                </div>
-            </div>
-
-            <div class="campusesCol">
-                <img src="img/campus/washington.png" alt="Washington">
-                <div class="layer">
-                    <h3>WASHINGTON</h3>
-                </div>
-            </div>
+      <div class="wrote">
+        <div class="campusesCol">
+          <img src="img/campus/london.png" alt="london" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
         </div>
+
+        <div class="campusesCol">
+          <img src="img/campus/newyork.png" alt="New York" />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+
+        <div class="campusesCol">
+          <img src="img/campus/washington.png" alt="Washington" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Facilities -->
     <section class="facilities">
-        <h1>Our Facilities</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias.</p>
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        alias.
+      </p>
 
-        <div class="rows">
-            <div class="facilitiesCol">
-                <img src="img/facilities/library.png" alt="Libary">
-                <h3>Our Libary</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias.</p>
-            </div>
-
-            <div class="facilitiesCol">
-                <img src="img/facilities/basketball.png" alt="basketball">
-                <h3>Largest Play Ground</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias.</p>
-            </div>
-
-            <div class="facilitiesCol">
-                <img src="img/facilities/cafeteria.png" alt="cafeteria">
-                <h3>Tasty and Healthy Food</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias.</p>
-            </div>
+      <div class="rows">
+        <div class="facilitiesCol">
+          <img src="img/facilities/library.png" alt="Libary" />
+          <h3>Our Libary</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            alias.
+          </p>
         </div>
+
+        <div class="facilitiesCol">
+          <img src="img/facilities/basketball.png" alt="basketball" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            alias.
+          </p>
+        </div>
+
+        <div class="facilitiesCol">
+          <img src="img/facilities/cafeteria.png" alt="cafeteria" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            alias.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonilas -->
     <section class="testimonilas">
-        <h1>What Our Students Says</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, alias</p>
+      <h1>What Our Students Says</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        alias
+      </p>
 
-        <div class="students">
-            <div class="testimonilasCol">
-                <img src="img/user/user1.jpg" alt="user1">
-                <div class="users">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque sint itaque, aperiam fugit unde accusamus enim, dolor sed voluptas laudantium, deserunt autem eius.</p>
-                    <h3>Chistine Barkley</h3>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-            </div>
-
-            <div class="testimonilasCol">
-                <img src="img/user/user2.jpg" alt="user1">
-                <div class="users">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque sint itaque, aperiam fugit unde accusamus enim, dolor sed voluptas laudantium, deserunt autem eius.</p>
-                    <h3>David Byer</h3>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-            </div>
+      <div class="students">
+        <div class="testimonilasCol">
+          <img src="img/user/user1.jpg" alt="user1" />
+          <div class="users">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              eaque sint itaque, aperiam fugit unde accusamus enim, dolor sed
+              voluptas laudantium, deserunt autem eius.
+            </p>
+            <h3>Chistine Barkley</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
         </div>
+
+        <div class="testimonilasCol">
+          <img src="img/user/user2.jpg" alt="user1" />
+          <div class="users">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              eaque sint itaque, aperiam fugit unde accusamus enim, dolor sed
+              voluptas laudantium, deserunt autem eius.
+            </p>
+            <h3>David Byer</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- call to action -->
     <section class="cta">
-        <h1>Enroll For Our Various Online Courses <br>Anywhere From The World</h1>
-        <a href="#" class="button">CONTAC US</a>
+      <h1>
+        Enroll For Our Various Online Courses <br />Anywhere From The World
+      </h1>
+      <a href="#" class="button">CONTAC US</a>
     </section>
 
     <!-- Footer -->
     <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odio architecto, provident modi necessitatibus expedita <br>ad perspiciatis, iste amet eos ex ratione? Maxime voluptatibus consequuntur.</p>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odio
+        architecto, provident modi necessitatibus expedita <br />ad
+        perspiciatis, iste amet eos ex ratione? Maxime voluptatibus
+        consequuntur.
+      </p>
 
-        <div class="icon">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
     </section>
-    <script src="script.js">
-        
-    </script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
