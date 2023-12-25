@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>University Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans&family=Mulish&family=Poppins:wght@100;300;400;600;700&family=Roboto&display=swap');
-    </style>
+    <link rel="stylesheet" href="./css/style.css" />
     <script
       src="https://kit.fontawesome.com/8e8866d857.js"
       crossorigin="anonymous"
@@ -16,10 +13,10 @@
   </head>
   <body>
     <section class="header">
-      <nav>
+      <nav class="nav">
         <a href="index.html"><img src="img/logo/logo.png" alt="Logo" /></a>
         <div class="nav-link" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <i id="xmark" class="fa-solid fa-xmark"></i>
           <ul>
             <li><a class="active" href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
@@ -28,7 +25,7 @@
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <i id="bar" class="fa-solid fa-bars"></i>
       </nav>
       <div class="textBox">
         <h1>World's Biggest University</h1>
@@ -220,7 +217,9 @@
         <i class="fa fa-linkedin"></i>
       </div>
     </section>
-    
-    <script src="script.js"></script>
+
+    <script src="./js/fontAwesome.js"></script>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

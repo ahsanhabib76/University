@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>University Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans&family=Mulish&family=Poppins:wght@100;300;400;600;700&family=Roboto&display=swap');
-    </style>
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="./img/logo/logo.png" /></a>
+      <nav class="nav">
+        <a href="index.html"><img src="img/logo/logo.png" alt="Logo" /></a>
         <div class="nav-link" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <i id="xmark" class="fa-solid fa-xmark"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
@@ -23,7 +21,7 @@
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <i id="bar" class="fa-solid fa-bars"></i>
       </nav>
       <h1>Our Courses</h1>
     </section>
@@ -38,19 +36,25 @@
         <div class="coursesCol">
           <h3>Intermediate</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique fugit nulla culpa nobis voluptas, harum libero nam veniam! Odit
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            similique fugit nulla culpa nobis voluptas, harum libero nam veniam!
+            Odit
           </p>
         </div>
         <div class="coursesCol">
           <h3>Degree</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique fugit nulla culpa nobis voluptas, harum libero nam veniam! Odit
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            similique fugit nulla culpa nobis voluptas, harum libero nam veniam!
+            Odit
           </p>
         </div>
         <div class="coursesCol">
           <h3>Post Gradutes</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique fugit nulla culpa nobis voluptas, harum libero nam veniam! Odit
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            similique fugit nulla culpa nobis voluptas, harum libero nam veniam!
+            Odit
           </p>
         </div>
       </div>
@@ -111,10 +115,8 @@
       </div>
     </section>
 
-    <script
-      src="https://kit.fontawesome.com/8e8866d857.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
+    <script src="./js/fontAwesome.js"></script>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

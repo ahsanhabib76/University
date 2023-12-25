@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>University Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans&family=Mulish&family=Poppins:wght@100;300;400;600;700&family=Roboto&display=swap');
-    </style>
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="./img/logo/logo.png"></a>
+      <nav class="nav">
+        <a href="index.html"><img src="img/logo/logo.png" alt="Logo" /></a>
         <div class="nav-link" id="navLinks">
-          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <i id="xmark" class="fa-solid fa-xmark"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a class="active" href="about.html">ABOUT</a></li>
@@ -23,7 +21,7 @@
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <i id="bar" class="fa-solid fa-bars"></i>
       </nav>
       <h1>About Us</h1>
     </section>
@@ -31,13 +29,20 @@
     <section class="about-us">
       <div class="aboutRow">
         <div class="about-col">
-          <h1>We Are The World's Largest <br>University</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, accusamus dignissimos sequi quas hic porro reiciendis ducimus nam consequatur asperiores accusantium maxime molestiae repellat, modi, velit placeat odit numquam ut ipsum eius libero quo illo! Aliquid, et amet repellendus cumque ullam illum in voluptatibus velit rem iusto sapiente cupiditate qui.</p>
+          <h1>We Are The World's Largest <br />University</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+            accusamus dignissimos sequi quas hic porro reiciendis ducimus nam
+            consequatur asperiores accusantium maxime molestiae repellat, modi,
+            velit placeat odit numquam ut ipsum eius libero quo illo! Aliquid,
+            et amet repellendus cumque ullam illum in voluptatibus velit rem
+            iusto sapiente cupiditate qui.
+          </p>
           <button class="button">EXPLORE NOW</button>
         </div>
 
         <div class="about-col">
-          <img src="img/about.jpg">
+          <img src="img/about.jpg" />
         </div>
       </div>
     </section>
@@ -60,11 +65,8 @@
       </div>
     </section>
 
-    <script
-      src="https://kit.fontawesome.com/8e8866d857.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./js/fontAwesome.js"></script>
 
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
